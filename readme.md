@@ -80,7 +80,7 @@ DEPLOY_URL = "https://url-shortner-ub42.onrender.com" // this is currently deplo
 
 ### Deployment
 
-Deployed using render on backend : "://url-shortner-ub42.onrender.com
+Deployed using render on backend : https://url-shortner-ub42.onrender.com
 
 ## Notes
 
