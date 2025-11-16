@@ -61,7 +61,7 @@ app.post("/link", validateURL, async (req, res) => {
     try {
         await newURL.save();  // FIXED: must use await
         res.json({
-            message: `http://localhost:8000/${id}`,
+            message: `${process.env.DEPLOY_URL}/${id}`,
             type: "success"
         });
     } catch (err) {
