@@ -71,6 +71,17 @@ curl -X POST \
 
 ---
 
+### ENV Variables
+```
+MONGO_DB_URI = "xxxx"
+DEPLOY_URL = "https://url-shortner-ub42.onrender.com" // this is currently deployed link , use localhost for running it locally 
+
+```
+
+### Deployment
+
+Deployed using render on backend : "://url-shortner-ub42.onrender.com
+
 ## Notes
 
 - Make sure your `.env` file (if used) contains all required environment variables.
